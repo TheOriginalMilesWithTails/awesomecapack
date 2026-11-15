@@ -2252,11 +2252,6 @@ hash = "4cf7eb494f48576e28895ee5f362878f95c6bad65372666106140fdae82d0c4c"
 metafile = true
 
 [[files]]
-file = "mods/ggtu.pw.toml"
-hash = "8531af5de5dc6131f5602e021283fec43994b437338d69f2af1a2258d9cb83e7"
-metafile = true
-
-[[files]]
 file = "mods/glaidens-vista-improvements.pw.toml"
 hash = "b0cd860605cda046ba2165ef48f21485c33bec98ed2b28be108d91687f3e2479"
 metafile = true
