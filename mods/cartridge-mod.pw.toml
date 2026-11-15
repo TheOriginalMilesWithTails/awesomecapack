@@ -1,0 +1,13 @@
+name = "Cartridge - Console Emulation"
+filename = "cartridge_mod-neoforge-1.0.0+1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7eb193d6890cfdb52be550e2b4aa1d1213e2c020"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9112907
+project-id = 1730314

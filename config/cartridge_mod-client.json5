@@ -1,0 +1,198 @@
+{
+  // While playing, hear the game at full volume wherever you stand instead of from the TV (D63).
+  "playModeUnattenuatedAudio": false,
+  // The Pocketron's screen colours for Game Boy games (D165): LIME, GREYSCALE, OLIVE or TEAL.
+  "pocketronPalette": "LIME",
+  // Play with a gamepad (D118): the first one connected, read directly.
+  "gamepadEnabled": true,
+  // Every console's: the key that toggles the big view (D69), as Minecraft names keys.
+  "bigViewKey": "key.keyboard.f",
+  // Every console's: the gamepad input that toggles the big view (D146).
+  "padBigView": "LEFT_STICK",
+  // Every console's: the gamepad input that stops playing (D119); on the keyboard it's Esc.
+  "padStopPlaying": "RIGHT_STICK",
+  // The Pixelon Entertainment System and the Pixelon Blaster's trigger (fire).
+  "pixelon": {
+    "keys": {
+      "up": "key.keyboard.w",
+      "down": "key.keyboard.s",
+      "left": "key.keyboard.a",
+      "right": "key.keyboard.d",
+      "a": "key.keyboard.space",
+      "b": "key.keyboard.left.shift",
+      "select": "key.keyboard.right.shift",
+      "start": "key.keyboard.enter",
+      "fire": "key.mouse.left"
+    },
+    "pad": {
+      "up": "DPAD_UP",
+      "down": "DPAD_DOWN",
+      "left": "DPAD_LEFT",
+      "right": "DPAD_RIGHT",
+      "a": "EAST",
+      "b": "SOUTH",
+      "select": "BACK",
+      "start": "START",
+      "fire": "RIGHT_TRIGGER"
+    },
+    "leftStickAsDpad": true
+  },
+  // The Super Pixelon, and the Pocketron Adapter in it.
+  "superPixelon": {
+    "keys": {
+      "up": "key.keyboard.w",
+      "down": "key.keyboard.s",
+      "left": "key.keyboard.a",
+      "right": "key.keyboard.d",
+      "a": "key.keyboard.space",
+      "b": "key.keyboard.left.shift",
+      "x": "key.keyboard.left.alt",
+      "y": "key.keyboard.left.control",
+      "l": "key.keyboard.q",
+      "r": "key.keyboard.e",
+      "select": "key.keyboard.right.shift",
+      "start": "key.keyboard.enter"
+    },
+    "pad": {
+      "up": "DPAD_UP",
+      "down": "DPAD_DOWN",
+      "left": "DPAD_LEFT",
+      "right": "DPAD_RIGHT",
+      "a": "EAST",
+      "b": "SOUTH",
+      "x": "NORTH",
+      "y": "WEST",
+      "l": "LEFT_BUMPER",
+      "r": "RIGHT_BUMPER",
+      "select": "BACK",
+      "start": "START"
+    },
+    "leftStickAsDpad": true
+  },
+  // The Vortex Drive.
+  "vortexDrive": {
+    "keys": {
+      "up": "key.keyboard.w",
+      "down": "key.keyboard.s",
+      "left": "key.keyboard.a",
+      "right": "key.keyboard.d",
+      "a": "key.keyboard.left.control",
+      "b": "key.keyboard.left.shift",
+      "c": "key.keyboard.space",
+      "x": "key.keyboard.q",
+      "y": "key.keyboard.left.alt",
+      "z": "key.keyboard.e",
+      "mode": "key.keyboard.right.shift",
+      "start": "key.keyboard.enter"
+    },
+    "pad": {
+      "up": "DPAD_UP",
+      "down": "DPAD_DOWN",
+      "left": "DPAD_LEFT",
+      "right": "DPAD_RIGHT",
+      "a": "WEST",
+      "b": "SOUTH",
+      "c": "EAST",
+      "x": "LEFT_BUMPER",
+      "y": "NORTH",
+      "z": "RIGHT_BUMPER",
+      "mode": "BACK",
+      "start": "START"
+    },
+    "leftStickAsDpad": true
+  },
+  // The Pixelon 64. A gamepad's left stick is always its analog stick.
+  "pixelon64": {
+    "keys": {
+      "stick_up": "key.keyboard.w",
+      "stick_down": "key.keyboard.s",
+      "stick_left": "key.keyboard.a",
+      "stick_right": "key.keyboard.d",
+      "a": "key.keyboard.space",
+      "b": "key.keyboard.left.shift",
+      "z": "key.keyboard.left.control",
+      "l": "key.keyboard.q",
+      "r": "key.keyboard.e",
+      "start": "key.keyboard.enter",
+      "c_up": "key.keyboard.up",
+      "c_down": "key.keyboard.down",
+      "c_left": "key.keyboard.left",
+      "c_right": "key.keyboard.right",
+      "dpad_up": "key.keyboard.i",
+      "dpad_down": "key.keyboard.k",
+      "dpad_left": "key.keyboard.j",
+      "dpad_right": "key.keyboard.l"
+    },
+    "pad": {
+      "a": "SOUTH",
+      "b": "WEST",
+      "z": "LEFT_TRIGGER",
+      "l": "LEFT_BUMPER",
+      "r": "RIGHT_BUMPER",
+      "start": "START",
+      "c_up": "RIGHT_STICK_UP",
+      "c_down": "RIGHT_STICK_DOWN",
+      "c_left": "RIGHT_STICK_LEFT",
+      "c_right": "RIGHT_STICK_RIGHT",
+      "dpad_up": "DPAD_UP",
+      "dpad_down": "DPAD_DOWN",
+      "dpad_left": "DPAD_LEFT",
+      "dpad_right": "DPAD_RIGHT"
+    },
+    "leftStickAsDpad": true
+  },
+  // The Pocketron and the Pocketron Color.
+  "pocketron": {
+    "keys": {
+      "up": "key.keyboard.w",
+      "down": "key.keyboard.s",
+      "left": "key.keyboard.a",
+      "right": "key.keyboard.d",
+      "a": "key.keyboard.space",
+      "b": "key.keyboard.left.shift",
+      "select": "key.keyboard.right.shift",
+      "start": "key.keyboard.enter"
+    },
+    "pad": {
+      "up": "DPAD_UP",
+      "down": "DPAD_DOWN",
+      "left": "DPAD_LEFT",
+      "right": "DPAD_RIGHT",
+      "a": "EAST",
+      "b": "SOUTH",
+      "select": "BACK",
+      "start": "START"
+    },
+    "leftStickAsDpad": true
+  },
+  // The Pocketron Advance and the Pocketron Advance SP.
+  "pocketronAdvance": {
+    "keys": {
+      "up": "key.keyboard.w",
+      "down": "key.keyboard.s",
+      "left": "key.keyboard.a",
+      "right": "key.keyboard.d",
+      "a": "key.keyboard.space",
+      "b": "key.keyboard.left.shift",
+      "l": "key.keyboard.q",
+      "r": "key.keyboard.e",
+      "select": "key.keyboard.right.shift",
+      "start": "key.keyboard.enter"
+    },
+    "pad": {
+      "up": "DPAD_UP",
+      "down": "DPAD_DOWN",
+      "left": "DPAD_LEFT",
+      "right": "DPAD_RIGHT",
+      "a": "EAST",
+      "b": "SOUTH",
+      "l": "LEFT_BUMPER",
+      "r": "RIGHT_BUMPER",
+      "select": "BACK",
+      "start": "START"
+    },
+    "leftStickAsDpad": true
+  },
+  // Add-ons' consoles (D195), by their control set's id. Kept while an add-on is away.
+  "addOns": {}
+}

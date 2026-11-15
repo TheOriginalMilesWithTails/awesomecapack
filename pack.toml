@@ -1,0 +1,13 @@
+name = "mileswithtails' awesome ca modpack"
+author = "mileswithtails_"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "0172bdf0f2d365708b6ea719b594304ae75a4450dd89b8f30b708d8b2062a396"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.265"

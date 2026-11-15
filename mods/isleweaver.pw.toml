@@ -1,0 +1,13 @@
+name = "The Beyond - Isleweaver Addon"
+filename = "isleweaver-0.0.3b-InDev.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a0a9202f0c41b127629bb82ff849bad03ad6eb49"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9224612
+project-id = 1563324

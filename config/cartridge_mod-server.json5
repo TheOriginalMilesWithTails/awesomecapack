@@ -1,0 +1,28 @@
+{
+  // Players within this many blocks of a running TV emulate it and see and hear the game (D13).
+  "spectatorRadius": 32,
+  // Largest ROM file players may upload, in megabytes (D16, D72, D115).
+  "maxRomSizeMegabytes": 64,
+  // Total size of all stored ROMs, in megabytes; uploads are refused once it's reached (D71).
+  "romStorageQuotaMegabytes": 4096,
+  // Permission level to burn games, upload a BIOS and import saves (D76, D97): 0 everyone, 2 operators.
+  "uploadPermissionLevel": 0,
+  // Reject uploads whose header doesn't match the console's format (D16).
+  "validateRomHeaders": true,
+  // How far apart, in blocks, a console and a TV linked by an AV Cable may be (D61).
+  "cableRange": 16,
+  // How many TVs one console can feed (D61).
+  "maxTvsPerConsole": 8,
+  // How many frames a player's game may run ahead of the other player's inputs (D83). 12 is about 200 ms.
+  "rollbackFrames": 12,
+  // The most a player's own presses are held back on a slow link, in frames (D83).
+  "maxInputDelayFrames": 3,
+  // How often a running game's savestate is saved, in seconds, so it resumes after a crash or restart (D90).
+  "resumeSnapshotSeconds": 60,
+  // How far, in blocks, the Pixelon Blaster hits a TV from (D100).
+  "lightGunRange": 16,
+  // Players within this many blocks of someone holding a running Pocketron see its screen (D160).
+  "handheldRange": 8,
+  // How far apart, in blocks, two players with linked Pocketrons may be before the cable comes out (D178).
+  "linkCableRange": 10
+}

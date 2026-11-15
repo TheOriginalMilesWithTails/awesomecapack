@@ -1,0 +1,13 @@
+name = "Glaiden's Vista improvements"
+filename = "Glaidens-Vista-improvements-1.0.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7e947cebcd1ac3ba9c38747542935c42c6f4fded"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8164497
+project-id = 1545190

@@ -1,0 +1,13 @@
+name = "Rimulib"
+filename = "rimulib-1.2.3-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e65d3f73aebc47e04c426a79a97193dd017fe6f1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9562438
+project-id = 1753907

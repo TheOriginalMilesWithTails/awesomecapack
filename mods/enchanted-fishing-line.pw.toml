@@ -1,0 +1,13 @@
+name = "Enchanted Fishing Line"
+filename = "enchanted_fishing_line-1.1-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "48a542b6f8233d840e0310eecc64e05febb730f5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9601282
+project-id = 1597536
