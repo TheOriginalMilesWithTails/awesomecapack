@@ -2424,11 +2424,6 @@ hash = "a4a670f4b467518d39b9d1bc340d4c0592d1319f43adb821c0ebe96bd5f1ade7"
 metafile = true
 
 [[files]]
-file = "mods/playit-companion.pw.toml"
-hash = "f52cf0ca8dfdff3597de0bddec3dc86c93ee480cec1d725c37c4c2b531a7c6bb"
-metafile = true
-
-[[files]]
 file = "mods/pocket.pw.toml"
 hash = "f0e55eb84dbbe31ac82fe48fd9895b39c136dba58959aeec50b99c284f4eabd6"
 metafile = true
