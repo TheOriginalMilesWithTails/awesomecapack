@@ -3322,6 +3322,11 @@ hash = "549bd809610dfbf06af02e986e8fc057a4b1f9c1745b0cb8dff6dd175cc2387f"
 metafile = true
 
 [[files]]
+file = "mods/midnightlib.pw.toml"
+hash = "f7198ef16f4eefbe80ffd1d8ac7c2d323da4e68faf916a8b4b9c3e40f0913b80"
+metafile = true
+
+[[files]]
 file = "mods/mielon's-the-sift-2.0.3-mc1.21.1-neo.jar"
 hash = "b45290134ace208925373df9c970f2f35f6af12b00aa5cfbebff13f0774d32f8"
 
@@ -3333,6 +3338,11 @@ metafile = true
 [[files]]
 file = "mods/mod-menu-neoforge-edition.pw.toml"
 hash = "9f18a709b7834e52436d19e5e7fe051fdf1d1d6dad6632ce5415c6f5a707ce74"
+metafile = true
+
+[[files]]
+file = "mods/modefite-item-definition-backport.pw.toml"
+hash = "d5e22fe1cacf92f856df16785fd07587ec709b238aca42c91405ff91aa0bed6d"
 metafile = true
 
 [[files]]
@@ -3430,6 +3440,11 @@ hash = "05c8258943d9cbd9aec4c929b78d00a4d42eb6126fbed761dc2f4bef3affdbbd"
 [[files]]
 file = "mods/punchy-moves.pw.toml"
 hash = "748e704b5c7b1531e86f50da8a0a432288a14c28a1013fc5dd56bc99030a060e"
+metafile = true
+
+[[files]]
+file = "mods/puzzle.pw.toml"
+hash = "748d7eb08f3d2c362aebf9ee417706b181257b7d5f4a2003ec93340d5b7b881d"
 metafile = true
 
 [[files]]
