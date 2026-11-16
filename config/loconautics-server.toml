@@ -72,7 +72,7 @@
 		#On, a strong enough upward push such as the Physics Staff lifts a Train off the rail. Off, nothing can lift it off.
 		derailOnExternalForce = true
 		#Off, a fast curve only lifts the wheels on the outside a little. On, curves are full physics and a car taken too fast tips off.
-		derailOnCurve = false
+		derailOnCurve = true
 		derailAtTrackEnd = true
 		# Default: 0.25
 		# Range: 0.0 ~ 1.0

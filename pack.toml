@@ -1,4 +1,4 @@
-name = "mileswithtails' awesome ca modpack"
+name = "Aeronautics_NEW"
 author = "mileswithtails_"
 version = "1.0.0"
 pack-format = "packwiz:1.1.0"
@@ -6,7 +6,7 @@ pack-format = "packwiz:1.1.0"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "8ea86094a4f9b35a197ee75df11c5d2f45689bc053d498356abfd264adc21d8f"
+hash = "e71456ae48f89b69eb01e92a8923aa479db493e4596e9bcaf54e8e2b93c7815d"
 
 [versions]
 minecraft = "1.21.1"

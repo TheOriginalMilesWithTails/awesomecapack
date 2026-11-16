@@ -1,13 +1,13 @@
 name = "Weather Glass"
-filename = "weatherglass-0.6.0-1.21.1-neoforge.jar"
+filename = "weatherglass-0.6.2-1.21.1-neoforge.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "13bc546673c3e700b07e4407a16282e153b2bc61"
+hash = "3d62931b46a993bfdb58f99e3de1f11530dc5bc4"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9508282
+file-id = 9613334
 project-id = 1757481

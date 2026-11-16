@@ -1,0 +1,7 @@
+[random_entrances]
+	#Any door you open has a chance to contain a portal to the tree room
+	enabled = false
+	#Chance each time you open a door. 0.01 is 1%.
+	# Default: 0.01
+	# Range: 0.0 ~ 1.0
+	chance = 0.01
