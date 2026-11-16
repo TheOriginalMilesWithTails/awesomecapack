@@ -3497,11 +3497,6 @@ hash = "6aba148930aeb000292b8862990ab4515ea033554b67b44dd3e59f16ef244778"
 metafile = true
 
 [[files]]
-file = "mods/ship-trails-for-sable.pw.toml"
-hash = "029dc3ea16babfec6fe6dfad4d451ea23f355d6206cd862ba1bab3ec1a814912"
-metafile = true
-
-[[files]]
 file = "mods/simple-voice-chat.pw.toml"
 hash = "ff2b1b18b45cd200ed7f17e37f9ad714f56986675d0ca70d6e5e78a6753da18e"
 metafile = true
