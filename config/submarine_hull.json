@@ -6417,6 +6417,74 @@
     "maxWaterDepth": 82,
     "implosionChance": 0.2742142
   },
+  "cbc_more_content:aim9": {
+    "maxWaterDepth": 49,
+    "implosionChance": 0.4806853
+  },
+  "cbc_more_content:bombsight": {
+    "maxWaterDepth": 73,
+    "implosionChance": 0.330409
+  },
+  "cbc_more_content:bounding_mine": {
+    "maxWaterDepth": 39,
+    "implosionChance": 0.5463528
+  },
+  "cbc_more_content:c4": {
+    "maxWaterDepth": 35,
+    "implosionChance": 0.43337092
+  },
+  "cbc_more_content:chain_connector": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "cbc_more_content:claymore": {
+    "maxWaterDepth": 40,
+    "implosionChance": 0.5344535
+  },
+  "cbc_more_content:cruise_missile": {
+    "maxWaterDepth": 49,
+    "implosionChance": 0.4806853
+  },
+  "cbc_more_content:large_bomb": {
+    "maxWaterDepth": 52,
+    "implosionChance": 0.46115425
+  },
+  "cbc_more_content:large_mine": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.5119372
+  },
+  "cbc_more_content:medium_bomb": {
+    "maxWaterDepth": 46,
+    "implosionChance": 0.50122136
+  },
+  "cbc_more_content:moab": {
+    "maxWaterDepth": 64,
+    "implosionChance": 0.39013878
+  },
+  "cbc_more_content:rocket_pod": {
+    "maxWaterDepth": 81,
+    "implosionChance": 0.28040898
+  },
+  "cbc_more_content:sea_bomb": {
+    "maxWaterDepth": 43,
+    "implosionChance": 0.5174225
+  },
+  "cbc_more_content:sea_mine": {
+    "maxWaterDepth": 46,
+    "implosionChance": 0.50122136
+  },
+  "cbc_more_content:siren": {
+    "maxWaterDepth": 76,
+    "implosionChance": 0.31137055
+  },
+  "cbc_more_content:small_bomb": {
+    "maxWaterDepth": 40,
+    "implosionChance": 0.5344535
+  },
+  "cbc_more_content:small_mine": {
+    "maxWaterDepth": 39,
+    "implosionChance": 0.5463528
+  },
   "cccbridge:animatronic_block": {
     "maxWaterDepth": 33,
     "implosionChance": 0.4517091
@@ -11924,6 +11992,202 @@
   "createdeco:zinc_window_pane": {
     "maxWaterDepth": 28,
     "implosionChance": 0.55876356
+  },
+  "createnuclear:autunite": {
+    "maxWaterDepth": 66,
+    "implosionChance": 0.34290898
+  },
+  "createnuclear:autunite_pillar": {
+    "maxWaterDepth": 66,
+    "implosionChance": 0.34290898
+  },
+  "createnuclear:cut_autunite": {
+    "maxWaterDepth": 66,
+    "implosionChance": 0.34290898
+  },
+  "createnuclear:cut_autunite_brick_slab": {
+    "maxWaterDepth": 66,
+    "implosionChance": 0.34290898
+  },
+  "createnuclear:cut_autunite_brick_stairs": {
+    "maxWaterDepth": 66,
+    "implosionChance": 0.34290898
+  },
+  "createnuclear:cut_autunite_brick_wall": {
+    "maxWaterDepth": 66,
+    "implosionChance": 0.34290898
+  },
+  "createnuclear:cut_autunite_bricks": {
+    "maxWaterDepth": 66,
+    "implosionChance": 0.34290898
+  },
+  "createnuclear:cut_autunite_slab": {
+    "maxWaterDepth": 66,
+    "implosionChance": 0.34290898
+  },
+  "createnuclear:cut_autunite_stairs": {
+    "maxWaterDepth": 66,
+    "implosionChance": 0.34290898
+  },
+  "createnuclear:cut_autunite_wall": {
+    "maxWaterDepth": 66,
+    "implosionChance": 0.34290898
+  },
+  "createnuclear:deepslate_lead_ore": {
+    "maxWaterDepth": 71,
+    "implosionChance": 0.31137055
+  },
+  "createnuclear:deepslate_nitrate_ore": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "createnuclear:deepslate_thorium_ore": {
+    "maxWaterDepth": 71,
+    "implosionChance": 0.31137055
+  },
+  "createnuclear:deepslate_uranium_ore": {
+    "maxWaterDepth": 71,
+    "implosionChance": 0.31137055
+  },
+  "createnuclear:enriched_soul_soil": {
+    "maxWaterDepth": 23,
+    "implosionChance": 0.5344535
+  },
+  "createnuclear:enriching_campfire": {
+    "maxWaterDepth": 41,
+    "implosionChance": 0.39013878
+  },
+  "createnuclear:enriching_fire": {
+    "maxWaterDepth": 15,
+    "implosionChance": 0.6
+  },
+  "createnuclear:layered_autunite": {
+    "maxWaterDepth": 66,
+    "implosionChance": 0.34290898
+  },
+  "createnuclear:lead_block": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "createnuclear:lead_ore": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "createnuclear:nitrate_ore": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "createnuclear:nitrogen": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "createnuclear:polished_cut_autunite": {
+    "maxWaterDepth": 66,
+    "implosionChance": 0.34290898
+  },
+  "createnuclear:polished_cut_autunite_slab": {
+    "maxWaterDepth": 66,
+    "implosionChance": 0.34290898
+  },
+  "createnuclear:polished_cut_autunite_stairs": {
+    "maxWaterDepth": 66,
+    "implosionChance": 0.34290898
+  },
+  "createnuclear:polished_cut_autunite_wall": {
+    "maxWaterDepth": 66,
+    "implosionChance": 0.34290898
+  },
+  "createnuclear:raw_lead_block": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "createnuclear:raw_thorium_block": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "createnuclear:raw_uranium_block": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "createnuclear:reactor_alarm": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "createnuclear:reactor_casing": {
+    "maxWaterDepth": 79,
+    "implosionChance": 0.26137057
+  },
+  "createnuclear:reactor_controller": {
+    "maxWaterDepth": 88,
+    "implosionChance": 0.20540899
+  },
+  "createnuclear:reactor_cooler": {
+    "maxWaterDepth": 79,
+    "implosionChance": 0.26137057
+  },
+  "createnuclear:reactor_core": {
+    "maxWaterDepth": 88,
+    "implosionChance": 0.20540899
+  },
+  "createnuclear:reactor_fluid_input": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "createnuclear:reactor_frame": {
+    "maxWaterDepth": 63,
+    "implosionChance": 0.36137056
+  },
+  "createnuclear:reactor_output": {
+    "maxWaterDepth": 88,
+    "implosionChance": 0.20540899
+  },
+  "createnuclear:reactor_rod_input": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "createnuclear:reinforced_glass": {
+    "maxWaterDepth": 30,
+    "implosionChance": 0.05
+  },
+  "createnuclear:small_autunite_brick_slab": {
+    "maxWaterDepth": 66,
+    "implosionChance": 0.34290898
+  },
+  "createnuclear:small_autunite_brick_stairs": {
+    "maxWaterDepth": 66,
+    "implosionChance": 0.34290898
+  },
+  "createnuclear:small_autunite_brick_wall": {
+    "maxWaterDepth": 66,
+    "implosionChance": 0.34290898
+  },
+  "createnuclear:small_autunite_bricks": {
+    "maxWaterDepth": 66,
+    "implosionChance": 0.34290898
+  },
+  "createnuclear:steel_block": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "createnuclear:thorium": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "createnuclear:thorium_block": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "createnuclear:thorium_ore": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "createnuclear:uranium": {
+    "maxWaterDepth": 400,
+    "implosionChance": 0.05
+  },
+  "createnuclear:uranium_ore": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.330409
   },
   "createoreexcavation:drilling_machine": {
     "maxWaterDepth": 148,
