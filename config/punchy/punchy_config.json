@@ -37,24 +37,8 @@
   "enableBlurGlowAtDark": false,
   "firstPersonModelHideEnabled": true,
   "firstPersonModelHidePitch": 60.0,
-  "itemBlacklist": [
-    "pocket:compression_gun",
-    "pocket:pearlescent_compression_gun",
-    "pocket:creative_shrink_ray",
-    "pocket:glue_gun",
-    "create:potato_cannon",
-    "create:handheld_worldshaper",
-    "simulated:plunger_launcher"
-  ],
-  "blacklistApplyDualHanded": {
-    "pocket:compression_gun": false,
-    "pocket:pearlescent_compression_gun": false,
-    "pocket:creative_shrink_ray": false,
-    "pocket:glue_gun": false,
-    "create:potato_cannon": false,
-    "create:handheld_worldshaper": false,
-    "simulated:plunger_launcher": false
-  },
+  "itemBlacklist": [],
+  "blacklistApplyDualHanded": {},
   "animationPackSelections": {},
   "animationPackTypeSelections": {},
   "mixSpecificForceOverride": {},

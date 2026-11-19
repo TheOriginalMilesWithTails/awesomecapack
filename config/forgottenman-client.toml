@@ -1,7 +1,0 @@
-[effects]
-	#How the portal, the man and the mirror copies are drawn.
-	#auto: full effects, dropping to the shaderpack-safe path where needed
-	#full: always the full effects, even under a shaderpack that breaks them
-	#compat: always the shaderpack-safe path
-	#Allowed Values: AUTO, FULL, COMPAT
-	effects_mode = "AUTO"

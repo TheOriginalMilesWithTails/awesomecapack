@@ -32,6 +32,16 @@ weapons:
     damage-min: 2
     damage-max: 1000
     true-erasure: true
+  meridian:  # SS-02 · Meridian
+    enabled: true
+    permission: tss.meridian
+    power-min: 0.1
+    power-max: 10
+    speed-min: 0.3
+    speed-max: 3
+    damage-min: 2
+    damage-max: 1000
+    true-erasure: true
   gungnir:  # SS-03 · Gungnir
     enabled: true
     permission: tss.gungnir

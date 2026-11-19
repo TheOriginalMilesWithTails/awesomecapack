@@ -484,6 +484,7 @@
 	lapis_bricks = true
 	deepslate_lamp = true
 	end_stone_lamp = true
+	redstone_lantern = true
 	blackstone_lamp = true
 	stone_lamp = true
 	stone_tile = true
@@ -501,7 +502,6 @@
 	candle_holder = true
 	fire_pit = true
 	wicker_fence = true
-	redstone_lantern = true
 
 	[building.spider_head]
 		enabled = true
@@ -822,16 +822,16 @@
 		# Default: 300
 		# Range: 0 ~ 1000
 		duration = 300
-		#Chance that a slime mob will apply slimed effect on successful attack. Multiplied by the slime size
-		# Default: 0.15
-		# Range: 0.0 ~ 1.0
-		chance_per_slime_size = 0.15
 		#Makes Environmental mud balls apply a muddy version of the slimed effect (Environmental only)
 		environmental_mud_ball_compat = true
 		#Duration of the muddy effect in ticks. Longer than slimed since mud balls fly shorter
 		# Default: 600
 		# Range: 0 ~ 2000
 		mud_ball_duration = 600
+		#Chance that a slime mob will apply slimed effect on successful attack. Multiplied by the slime size
+		# Default: 0.15
+		# Range: 0.0 ~ 1.0
+		chance_per_slime_size = 0.15
 
 	[tweaks.clock_and_compass]
 		#Allow to right click with a clock to display current time in numerical form

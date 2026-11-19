@@ -1,0 +1,13 @@
+name = "Parry It!"
+filename = "parry-2.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7fa65b32ddfd394ca67aeaa2f9d5e2916b04165a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8672092
+project-id = 1526352

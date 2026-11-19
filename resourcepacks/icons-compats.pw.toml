@@ -1,0 +1,13 @@
+name = "Icons Compats"
+filename = "Icons-Compats.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cf8f6f1f976c03d48f532c0dcf151feeba3458fc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9383879
+project-id = 1577414

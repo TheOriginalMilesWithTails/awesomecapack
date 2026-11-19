@@ -1,0 +1,13 @@
+name = "AR's OreUI Dark"
+filename = "AR's OreUI - Dark.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "dd08c05c0eb1be25b1480f52ed747b7057c5bd02"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9294164
+project-id = 1234828

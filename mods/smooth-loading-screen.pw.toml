@@ -1,0 +1,13 @@
+name = "Smooth Loading Screen"
+filename = "smoothloadingscreen-1.0.12-1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "93d642eabb936ab46705711b39a9cae5c9043867"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9593167
+project-id = 1789064

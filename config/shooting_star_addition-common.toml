@@ -1,0 +1,247 @@
+#Halley: a comet called down onto your crosshair. It comes in low over the horizon in front of
+#you, touches down beyond the mark, ploughs a trench toward you and detonates on the mark.
+[skill]
+	#Seconds before Halley can be fired again (the other Stellar Remote skills use 60).
+	#Creative mode always uses 1 second, like the other skills.
+	# Default: 60
+	# Range: 1 ~ 3600
+	cooldown_seconds = 60
+	#How far away (in blocks) your crosshair can place the mark.
+	# Default: 420
+	# Range: 32 ~ 1024
+	reach = 420
+
+#The shape of the scar. Bigger numbers mean more blocks to cut, so very large values cost more time
+#on the server tick the comet lands.
+[impact]
+	#Length of the trench the comet ploughs before it reaches the mark, in blocks.
+	# Default: 240
+	# Range: 32 ~ 640
+	trench_length = 240
+	#Width of the trench where it meets the crater, in blocks (it starts narrower).
+	# Default: 30
+	# Range: 8 ~ 64
+	trench_width = 30
+	#Depth of the trench at its deepest, in blocks.
+	# Default: 22
+	# Range: 2 ~ 64
+	trench_depth = 22
+	#Radius of the crater on the mark, in blocks. Everything inside it is erased.
+	# Default: 56
+	# Range: 12 ~ 128
+	crater_radius = 56
+	#Depth of the crater, in blocks.
+	# Default: 24
+	# Range: 4 ~ 96
+	crater_depth = 24
+	#How far the shock wave throws, hurts and frosts things, as a multiple of the crater radius.
+	# Default: 2.6
+	# Range: 1.0 ~ 5.0
+	blast_reach = 2.6
+	#How many chunks of the trench are cut each tick (the crater cuts twice as many). Higher finishes
+	#big strikes sooner but makes each tick heavier; lower is gentler on a busy server.
+	# Default: 12
+	# Range: 1 ~ 64
+	chunks_per_tick = 12
+
+#What the strike leaves behind.
+[world]
+	#Cut the trench and crater into the world. If false the strike is purely visual and
+	#only hurts creatures (handy on servers that protect their terrain).
+	carve_terrain = true
+	#Leave the glowing comet heart crystal in the crater and the frozen trail down the trench.
+	leave_comet_heart = true
+	#Paint rays of snow out from the crater, like ejecta round a fresh lunar crater.
+	frost_rays = true
+
+#Safety.
+[safety]
+	#Lift a creative-mode caster clear if they stand inside the crater, like the other skills do.
+	evacuate_creative_caster = true
+
+#Luna: the Stellar Remote shuts the Earth system down and brings the moon down onto your crosshair. It
+#drives itself half into the ground, shoving the land up round it, and stays: a moon of moon cheese with
+#one block of molten moon cheese at its very heart.
+[moonfall]
+	#Seconds before Luna can be fired again. Creative mode always uses 1 second, like the other skills.
+	# Default: 120
+	# Range: 1 ~ 3600
+	cooldown_seconds = 120
+	#How far away (in blocks) your crosshair can place the mark.
+	# Default: 420
+	# Range: 32 ~ 1024
+	reach = 420
+	#Only answer at night. By default (false) it can be called any time: like Halley, the sky falls
+	#to night for the strike (only what players see; the world's real time is untouched).
+	require_night = false
+
+#How big it all is. Anything from a pebble to a monster works, but every block of moon and ground has to be
+#placed or cut: a radius-200 moon is ~33 million blocks and will take the server a long while (it is
+#built a few chunks per tick, so the game keeps running). Very big moons also stick out of the build height.
+[moonfall_size]
+	#Radius of the moon, in blocks (the default is 96 blocks across).
+	# Default: 48
+	# Range: 2 ~ 200
+	moon_radius = 48
+	#Radius of the impact zone, in blocks: the crater blasted out round the moon, out to the crest of its
+	#rim. Everything inside it is erased.
+	# Default: 110
+	# Range: 4 ~ 320
+	impact_radius = 110
+	#How high the crater's rim stands over the old ground at its crest, in blocks (0: none; the
+	#slabs of crust buckled up against the moon reach most of that over the crater's floor).
+	# Default: 9
+	# Range: 0 ~ 96
+	rim_height = 9
+	#How much of the moon's height ends up driven down into the crater, in percent.
+	# Default: 70
+	# Range: 0 ~ 90
+	buried_percent = 70
+	#How far the shock wave throws and hurts things, as a multiple of the impact zone's radius.
+	# Default: 3.0
+	# Range: 1.0 ~ 6.0
+	blast_reach = 3.0
+	#How many chunks of ground and moon are cut or built each tick. Higher finishes big moons
+	#sooner but makes those ticks longer.
+	# Default: 8
+	# Range: 1 ~ 64
+	chunks_per_tick = 8
+
+#What the moonfall leaves behind.
+[moonfall_world]
+	#Change the land and leave the moon in the world. If false the moonfall is purely visual and
+	#only hurts creatures (handy on servers that protect their terrain).
+	carve_terrain = true
+	#Put one block of molten moon cheese at the very centre of the moon.
+	molten_core = true
+
+#Moon cheese. Ordinary moon cheese is eaten like a golden carrot. Molten moon cheese gives the effects below.
+[moon_cheese]
+	#Hearts you have while the molten moon cheese lasts (vanilla players have 10).
+	# Default: 500
+	# Range: 1 ~ 512
+	molten_hearts = 500
+	#Strength level it gives (255 = Strength CCLV, the most there is).
+	# Default: 255
+	# Range: 1 ~ 255
+	molten_strength = 255
+	#How long the molten moon cheese lasts, in minutes.
+	# Default: 10
+	# Range: 1 ~ 120
+	molten_minutes = 10
+
+#SA-04 Proxima: a red dwarf in its Dyson sphere fires a solar flare, then a coronal mass ejection, at your
+#crosshair: a wide, shallow scorch with a glassy bowl in the middle.
+[proxima]
+	#Allow Proxima at all. If false the remote refuses it.
+	enabled = true
+	#Seconds before Proxima can be fired again. Creative mode always uses 1 second, like the other skills.
+	# Default: 60
+	# Range: 1 ~ 3600
+	cooldown_seconds = 60
+
+#How big it is at power 1 (the remote's power slider scales every radius, and the bowl's depth by its square
+#root). Only loaded land is changed; the rest as it loads.
+[proxima_size]
+	#Radius of the glassy bowl at ground zero, in blocks. Everything inside it is erased.
+	# Default: 36
+	# Range: 4 ~ 400
+	bowl_radius = 36
+	#Out to here trunks char and the ground turns to blackstone and basalt; creatures are badly hurt and set alight.
+	# Default: 100
+	# Range: 8 ~ 1000
+	char_radius = 100
+	#Out to here leaves, grass, flowers, snow and crops burn away and the topsoil scorches; creatures
+	#are hurt and staggered.
+	# Default: 220
+	# Range: 12 ~ 2000
+	scorch_radius = 220
+	#How deep the bowl is in its middle, in blocks.
+	# Default: 6
+	# Range: 1 ~ 48
+	bowl_depth = 6
+
+#What Proxima does to the world and to creatures.
+[proxima_world]
+	#Change the land (the bowl, the scorch, the ash). If false Proxima is purely visual and only
+	#hurts creatures.
+	carve_terrain = true
+	#Leave Solar Residue here and there in the bowl's glassy floor.
+	solar_residue = true
+	#Solid blocks over a creature's head that shelter it from the flash and the blast (glass doesn't count).
+	# Default: 3
+	# Range: 1 ~ 32
+	shelter_blocks = 3
+	#The most the blast pushes a player (survival and adventure only; never the caster), in blocks
+	#per tick. 0 = never.
+	# Default: 0.6
+	# Range: 0.0 ~ 4.0
+	player_knockback = 0.6
+	#How hard the blast throws mobs and items, as a multiple of the usual. 0 = never.
+	# Default: 1.0
+	# Range: 0.0 ~ 4.0
+	mob_knockback = 1.0
+	#How long the bowl stays dangerous at power 1, in minutes (longer at higher power); it fades
+	#out over that time. 0 = no radiation.
+	# Default: 10
+	# Range: 0 ~ 1440
+	radiation_minutes = 10
+	#Keep the bowl dangerous for good (it never fades; kept across restarts). Only players who
+	#saw the strike see its shimmer.
+	permanent_radiation = false
+	#Damage per second in the middle of a fresh bowl (less toward its edge and as it fades).
+	# Default: 3.0
+	# Range: 0.0 ~ 100.0
+	radiation_damage = 3.0
+
+#Random solar flares: now and then, with nobody casting it, Proxima flares near a player in the overworld.
+#Each is announced in chat first (a space weather alert), so players can take cover. Three tiers: minor (only
+#the sky lights up), major (its light burns creatures under the open sky and the plants round it) and
+#cataclysm (the whole strike, crater and all: only if max_tier allows it).
+[proxima_flares]
+	#Let random flares happen at all (off by default).
+	random_flares = false
+	#On average one flare every this many minutes (while players are in the overworld).
+	# Default: 120
+	# Range: 5 ~ 10080
+	average_minutes = 120
+	#Never two flares less than this many minutes apart.
+	# Default: 30
+	# Range: 1 ~ 10080
+	min_minutes_between = 30
+	#The worst a random flare may be: MINOR, MAJOR or CATACLYSM. Most are minor, some major, few cataclysms.
+	#Allowed Values: MINOR, MAJOR, CATACLYSM
+	max_tier = "MAJOR"
+	#Seconds between the alert in chat and the flare.
+	# Default: 60
+	# Range: 5 ~ 600
+	warning_seconds = 60
+	#A major flare burns the plants away round where it falls (leaves, grass, flowers, crops). Off: it
+	#only burns creatures. carve_terrain = false turns this off too.
+	major_burns_plants = true
+
+#The Stellar Remote itself.
+[stellar_remote]
+	#Lets players switch off the cooldown of every skill on the Stellar Remote - The Shooting Star's own
+	#as well as Halley and Luna: each can be cast again straight away (Halley and Luna even while one is still
+	#coming down). Each player turns it on or off for themselves in the remote's menu (H, the C key; on by
+	#default). Be careful with this: it lets the most destructive skills be cast back to back.
+	no_cooldown = false
+	#Whether survival (and adventure) mode players may use no_cooldown too. If false, only
+	#creative and spectator players can.
+	no_cooldown_survival = false
+	#The most Power any player can cast a skill with, as a multiple of that skill's default power
+	#(for Halley and Luna, 1 is their configured size above and 10 is the slider's end). Every skill on the remote,
+	#The Shooting Star's own as well. 0 (the default) means no limit.
+	# Default: 0.0
+	# Range: 0.0 ~ 10.0
+	max_power = 0.0
+	#The most Damage any skill on the remote can do with each hit. A cast with the slider at
+	#infinity (which erases whatever it hits) is held to this too. 0 (the default) means no limit.
+	# Default: 0.0
+	# Range: 0.0 ~ 100000.0
+	max_damage = 0.0
+	#The fastest Speed any skill on the remote can be cast at (the slider goes from 0.3 to 3).
+	# Default: 3.0
+	# Range: 0.3 ~ 3.0
+	max_speed = 3.0

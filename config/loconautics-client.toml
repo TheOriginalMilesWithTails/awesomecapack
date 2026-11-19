@@ -22,4 +22,4 @@
 	#Classic bogeys stay level with the rail they sit on.
 	#Rolling bogeys keep the roll of the car instead.
 	#Allowed Values: CLASSIC, ROLLING
-	renderStyle = "CLASSIC"
+	renderStyle = "ROLLING"

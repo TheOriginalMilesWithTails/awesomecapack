@@ -1,13 +1,12 @@
-name = "Aeronautics_NEW"
-author = "mileswithtails_"
+name = "Aeronautics_REDONE"
 version = "1.0.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "04a5275593d4538b60942a188ffd17a85556ed70bf61161771d647ebdd26822f"
+hash = "c39dca0db52dfc0081e472ea0b5c5337bc86773206dde4ec45c803c73ec885c9"
 
 [versions]
 minecraft = "1.21.1"
-neoforge = "21.1.265"
+neoforge = "21.1.267"
