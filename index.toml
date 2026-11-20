@@ -1639,7 +1639,7 @@ metafile = true
 
 [[files]]
 file = "mods/fzzy-config.pw.toml"
-hash = "0431771ba664f762587b1d876b0cd0ef4ca0751aed1a5604dfb5f4190f29d409"
+hash = "f2849c357f9c82d017ff71c6d5e91ac8e51d6b0f2de9e7ae8d95bfb81759cd63"
 metafile = true
 
 [[files]]
@@ -1927,6 +1927,11 @@ metafile = true
 [[files]]
 file = "mods/stellarity.pw.toml"
 hash = "7d1587744062d17afad1ea7b5e70bb5bc616c052c5762a4c822fc05bb364f7b5"
+metafile = true
+
+[[files]]
+file = "mods/subtle-effects.pw.toml"
+hash = "abea1aaa824128a43a6c6769e0e006e1fad8ac3b2073a5490f932d9cabe36178"
 metafile = true
 
 [[files]]
