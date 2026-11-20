@@ -1980,6 +1980,16 @@ hash = "204bfb2f2c871461138e2526e0ee521985ddfbb01eab388f998cc806a124559b"
 metafile = true
 
 [[files]]
+file = "mods/visuality-forge.pw.toml"
+hash = "3d907a6ec6e27ba52d9f8f062216b56aef39e586a4e673cfbb70dbe12671ec61"
+metafile = true
+
+[[files]]
+file = "mods/wakes-reforged.pw.toml"
+hash = "8e464c45945b7311b01d0be50a714e8a64d389dc27331f4a27d7981fd29131b9"
+metafile = true
+
+[[files]]
 file = "mods/weather-glass.pw.toml"
 hash = "7c66b48167885a9fd95d5cc5f666ad3fd301cc3f8f41642121f4ee90999253a7"
 metafile = true
