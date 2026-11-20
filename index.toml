@@ -1383,11 +1383,6 @@ hash = "2c44cb25112f901aa377a0ea611db8296420158ba2d715ca1ff82e84ecf0bc6c"
 metafile = true
 
 [[files]]
-file = "mods/cirrus.pw.toml"
-hash = "501a2c334e6de321b9987302ebb52101da46df482b234f489053704f2c233ba5"
-metafile = true
-
-[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "22286fa216349c0767808903a0a38662857d2adee54950a18cbf26c167a06029"
 metafile = true
@@ -1484,6 +1479,11 @@ metafile = true
 [[files]]
 file = "mods/create-propulsion-simulated.pw.toml"
 hash = "df11e99922d21336ecfbb0c8ffb6ed942c2f73e32658b39afd1c4edf6b5d0ab3"
+metafile = true
+
+[[files]]
+file = "mods/create-sky.pw.toml"
+hash = "4d2235dc263e970c1009df46396959827b7ce017df4679272b57e0b1be7871cb"
 metafile = true
 
 [[files]]
