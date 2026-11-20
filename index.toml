@@ -1575,8 +1575,8 @@ hash = "ffb2957e5b461f8c165ee3873e541081f3478ed211eed6a00b801cdc28e81263"
 metafile = true
 
 [[files]]
-file = "mods/e4all.pw.toml"
-hash = "5cd319e987a70834c6b852f602fe1016e4cb2acc1b4114c5a954320d6b7c250f"
+file = "mods/e4steam.pw.toml"
+hash = "958163017efae6e76e0968181d595e9b984f5ab3fb0c16d60b39508a51bae98c"
 metafile = true
 
 [[files]]

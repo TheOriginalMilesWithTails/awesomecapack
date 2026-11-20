@@ -1,0 +1,13 @@
+name = "e4steam"
+filename = "e4steam-neoforge-mc1.20.2-26.3-v0.3.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "31a79f63a6f6508adb270cb31eb8a93b2b2c286a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9473488
+project-id = 1633302
