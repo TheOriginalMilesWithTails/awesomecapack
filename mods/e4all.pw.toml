@@ -1,0 +1,13 @@
+name = "e4all"
+filename = "e4all-neoforge-2.3.0-android.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5a963eb8585109b3d4ded6cb6b47e6afc9a24778"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9346441
+project-id = 1769364

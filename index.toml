@@ -1575,6 +1575,11 @@ hash = "ffb2957e5b461f8c165ee3873e541081f3478ed211eed6a00b801cdc28e81263"
 metafile = true
 
 [[files]]
+file = "mods/e4all.pw.toml"
+hash = "5cd319e987a70834c6b852f602fe1016e4cb2acc1b4114c5a954320d6b7c250f"
+metafile = true
+
+[[files]]
 file = "mods/easegui.pw.toml"
 hash = "b268984e0ffb5f4726eb67d91feb220a351dab120d98c32cea1df7ee604ed0e5"
 metafile = true
@@ -1876,11 +1881,6 @@ hash = "f2c81cf494b7b6c1063563d7377224cf64b29e0b86bcf87bcf4da8eb79b9c800"
 metafile = true
 
 [[files]]
-file = "mods/seamless-serverless-multiplayer.pw.toml"
-hash = "48e81dcbb825354937e023e4fb80203757662d6778757a262c0b5a2fd629768d"
-metafile = true
-
-[[files]]
 file = "mods/searchables.pw.toml"
 hash = "6c0fac550bb053ee2728144a28819835823dcc6d04ad7897750431fe55100e53"
 metafile = true
@@ -1997,11 +1997,6 @@ metafile = true
 [[files]]
 file = "mods/weather-glass.pw.toml"
 hash = "7c66b48167885a9fd95d5cc5f666ad3fd301cc3f8f41642121f4ee90999253a7"
-metafile = true
-
-[[files]]
-file = "mods/world-host.pw.toml"
-hash = "b844c10676b5911a4d2af32710d21fa22eafafcb6e1e3505fb8651b643cd99f7"
 metafile = true
 
 [[files]]
