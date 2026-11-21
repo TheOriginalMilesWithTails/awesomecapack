@@ -1777,11 +1777,6 @@ hash = "26aca541ff9f149ef8bfdf69efb258d23339affd9fba4612bddd01e759fb0ffd"
 metafile = true
 
 [[files]]
-file = "mods/not-enough-animations.pw.toml"
-hash = "15a416bd94c832989f0341b93fc88fb3947285c954c767c4c4f9952e33659ccb"
-metafile = true
-
-[[files]]
 file = "mods/outline-effects-neoforge-2.2+mc1.21.1.jar"
 hash = "4f3a23ff99bcbf92786fd5129fa99479f230b708312de684fb11c0d5ca5895de"
 
