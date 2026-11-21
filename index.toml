@@ -1589,6 +1589,11 @@ file = "mods/eg_particle_interactions-0.4.1-neoforge-mc1.21.1.jar"
 hash = "caba3b03c2f3d3dc30fbe2979246e14385c6db977f1da44673bbf95dcd0e3652"
 
 [[files]]
+file = "mods/emf-compat-core.pw.toml"
+hash = "fd1aaf11d14082f9f9804a77a49e6ae42e83c9cfd9fbf5614e3af425e890fb6e"
+metafile = true
+
+[[files]]
 file = "mods/enchanted-fishing-line.pw.toml"
 hash = "409b74e46376f61fc3a80cb0b759dac6be716a75146cca34bd92d6e17acd5c0f"
 metafile = true
@@ -1962,6 +1967,11 @@ metafile = true
 [[files]]
 file = "mods/the-shooting-star-demo.pw.toml"
 hash = "7bf4d245e43beb2222acbd45698aead7cd71125ec4ece213a9d1784d418a9dd3"
+metafile = true
+
+[[files]]
+file = "mods/touch-and-motion.pw.toml"
+hash = "861df11a57a8c81ba253e1a14953a2310f6d04ea7c3eb9fdfb3e29b02deccfaa"
 metafile = true
 
 [[files]]
