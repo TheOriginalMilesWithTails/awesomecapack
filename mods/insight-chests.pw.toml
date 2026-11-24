@@ -1,0 +1,13 @@
+name = "InSight Chests"
+filename = "insight-chests-neoforge-1.21.1-1.0.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "539cbbff173b4a9780f1e9b1e741c1c8c37759c0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9235968
+project-id = 1704507

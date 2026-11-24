@@ -1,13 +1,13 @@
 name = "Burnt Dynamic Trees"
-filename = "burnt_dt-neoforge-1.21.1-1.2.6.jar"
+filename = "burnt_dt-neoforge-1.21.1-1.2.7.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "9b56eb7bb9fe91de34ff0cc166bf8a70c7c01b14"
+hash = "89d30ba277abee45127b0bcd3f28e99cd8eb7434"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9035949
+file-id = 9736750
 project-id = 1546143

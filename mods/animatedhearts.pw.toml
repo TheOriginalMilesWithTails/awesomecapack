@@ -1,0 +1,13 @@
+name = "Animated Hearts"
+filename = "AnimatedHearts-NeoForge-2.3.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e01160ab0c3cabcd56600fcd21591be4d9179c62"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9541086
+project-id = 1588596

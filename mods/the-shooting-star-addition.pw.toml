@@ -1,13 +1,13 @@
 name = "The Shooting Star Addition: SA Series"
-filename = "The-Shooting-Star-Addition-SA-Series-1.8.3-NeoForge-1.21.1.jar"
+filename = "The-Shooting-Star-Addition-SA-Series-1.9.0-NeoForge-1.21.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "79dff53762f26dde067fb0d32eba39d596e639a7"
+hash = "bbcc450ee2928c4fd18704153a191457ae4b343e"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9687146
+file-id = 9772692
 project-id = 1725916

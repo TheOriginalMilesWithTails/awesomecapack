@@ -1,0 +1,13 @@
+name = "Wavify"
+filename = "wavify-1.5.0-1.21.1-neo.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4478fd36d7b2c3833981265df01a6ed2fbf9cf60"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9628585
+project-id = 1547083

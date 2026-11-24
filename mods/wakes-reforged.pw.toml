@@ -3,11 +3,11 @@ filename = "wakes-1.21.1-NeoForge-1.4.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/E0SdeAoH/versions/Z3Ic8n5N/wakes-1.21.1-NeoForge-1.4.1.jar"
-hash-format = "sha512"
-hash = "a3bc9480250b9a76ef53dec894f149b0528fd64ed81bcf7cd1570e4da022683eb7842e00e2aa84ae3235419684110da8bfa9d3ee57c2e21cc356dd47ba94406c"
+hash-format = "sha1"
+hash = "e55b63465e733b0faee50c9c336b82a5bca857a8"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "E0SdeAoH"
-version = "Z3Ic8n5N"
+[update.curseforge]
+file-id = 8657118
+project-id = 1223529

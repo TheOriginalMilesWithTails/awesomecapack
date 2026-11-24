@@ -1,0 +1,13 @@
+name = "Create: Assembly Animations"
+filename = "create_assembly_animation-2.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e11a36e26d87b5464d209988b5642f04084a5f36"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9395957
+project-id = 1698836

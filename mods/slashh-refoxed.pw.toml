@@ -1,0 +1,13 @@
+name = "slashh-Refoxed"
+filename = "slashh-2.8-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "de4228665bc09589eeac8c9c1a4259008e20a926"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9594653
+project-id = 1802866
